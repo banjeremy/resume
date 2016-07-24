@@ -3,10 +3,11 @@ node_js:
   - "node"
 
 install:
-- echo "installing..."
+  - npm install
 
 script:
-- echo "building..."
+  - npm run clean
+  - npm run build
 
 deploy:
   provider: s3
