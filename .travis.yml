@@ -5,12 +5,12 @@ node_js:
 install:
 - echo "installing..."
 
-build:
+script:
 - echo "building..."
 
 deploy:
   provider: s3
   skip_cleanup: true
-  bucket: portfolio.jeremyjones.tech
+  bucket: jeremyjones.tech
   region: us-east-1
   local_dir: dist
