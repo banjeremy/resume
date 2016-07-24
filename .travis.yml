@@ -11,5 +11,6 @@ build:
 deploy:
   provider: s3
   skip_cleanup: true
+  bucket: portfolio.jeremyjones.tech
   region: us-east-1
   local_dir: dist
