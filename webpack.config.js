@@ -26,9 +26,14 @@ module.exports = {
     }, {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
+    }, {
+      test: /\.html$/,
+      loader: "html"
     }]
   },
-
+  htmlLoader: {
+    interpolate: true,
+  },
   plugins: [
     new StaticSiteGeneratorPlugin('main', data.paths, data),
     new ExtractTextPlugin("[name].css")

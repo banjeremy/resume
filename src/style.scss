@@ -1,7 +1,96 @@
 @import '~normalize.css/normalize.css';
 
+$white: #eee;
+$gray: #aaa;
+
 body {
-  background-color: #f2f2f2;
-  max-width: 1200px;
-  margin: 0 auto;
+  font-family: 'Roboto Mono', monospace;
+  background-color: $white;
+  font-size:62.5%;
+  font-weight: 300;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  padding: 0 20px;
+  flex: 0 1 auto;
+  max-width: 900px;
+}
+
+li {
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 1.0rem;
+  margin-top: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted $gray;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+h2,
+h3 {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-left: 0px;
+
+  li {
+    list-style: none;
+    line-height: 1.4rem;
+    padding: 0.4rem 0;
+
+    &:before {
+      content: '>';
+      margin-left: -12px;
+      padding-right: 5px;
+      color: $gray;
+      font-size: 0.7rem;
+    }
+  }
+}
+
+h1 + p {
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 725px) {
+  #technologies + hr + ul {
+    column-count: 3;
+  }
+
+  ul > li {
+    padding: 0;
+  }
+}
+
+a {
+  font-size: 0.8rem;
 }
