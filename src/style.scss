@@ -87,7 +87,8 @@ h1 + p {
 }
 
 @media print, screen and (min-width: 745px) {
-  #technologies + hr + ul {
+  #technologies + hr + ul,
+  #personal + hr + ul {
     column-count: 3;
   }
 

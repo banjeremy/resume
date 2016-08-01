@@ -19,23 +19,29 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.css$/,
-      loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
     }, {
       test: /\.md$/,
-      loader: "html!markdown",
+      loader: 'html!markdown',
     }, {
       test: /\.scss$/,
-      loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
     }, {
       test: /\.html$/,
-      loader: "html"
+      loader: 'html'
+    }, {
+      test: /\.ico$/,
+      loader: 'file'
     }]
   },
   htmlLoader: {
     interpolate: true,
   },
+  fileLoader: {
+    name: "[name].[ext]"
+  },
   plugins: [
     new StaticSiteGeneratorPlugin('main', data.paths, data),
-    new ExtractTextPlugin("[name].css")
+    new ExtractTextPlugin('[name].css')
   ]
 };
