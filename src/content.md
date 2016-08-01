@@ -1,7 +1,7 @@
 # Jeremy Jones
 Full Stack Software Engineer
 
-[email](mailto:banjeremy@gmail.com) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech) | [pdf](#)
+[email](mailto:banjeremy@gmail.com) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech)
 
 ----------
 I am an experienced Full Stack Engineer and aspiring Architect.
@@ -17,25 +17,27 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - HTML
 - CSS / Sass / Less
 - Amazon Web Services (AWS)
+- Lambda
+- Kinesis
+- SQS
 - PostgreSQL
 - MongoDB
 - Webpack
 - Gulp
 - ReactJS
 - Mocha + Chai
-- Express
+- Microservices Architecture
 - Continuous Integration
 - Functional Programming
 - Responsive Web Design
 - Test Driven Development
-- Microservices Architecture
-- SCRUM
+- Scrum
 
 ## Experience
 ----------
 **Senior Software Engineer**, *Built Technologies* August 2015 – Present
 - architected and implemented microservice architecture using AWS Lambda
-- created [getbuilt.com](http://getbuilt.com) homepage
+- created [getbuilt.com](http://getbuilt.com) website
 
 **Senior Developer**, *Communication Components* July 2013 – August 2015
 - Lead developer across multiple client projects
@@ -61,6 +63,7 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 
 ## Personal
 -----------
+- travel
 - craft beer
 - hiking
 - kayaking

@@ -1,7 +1,11 @@
 @import '~normalize.css/normalize.css';
 
-$white: #eee;
+$white: #f2f2f2;
 $gray: #aaa;
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Roboto Mono', monospace;
@@ -17,7 +21,7 @@ body {
 #container {
   padding: 0 20px;
   flex: 0 1 auto;
-  max-width: 725px;
+  max-width: 745px;
 }
 
 li {
@@ -82,8 +86,7 @@ h1 + p {
   margin-top: 0.5rem;
 }
 
-/* Desktop-specific styles */
-@media screen and (min-width: 725px) {
+@media print, screen and (min-width: 745px) {
   #technologies + hr + ul {
     column-count: 3;
   }
@@ -92,11 +95,11 @@ h1 + p {
     padding-left: 0;
 
     > li {
-      padding: 0;
-      line-height: 1.4rem;
+      padding: 0 0 0.6rem 12px;
+      line-height: 1.2rem;
 
       &:before {
-        margin-left: 0;
+        // margin-left: 0;
       }
     }
   }
@@ -104,4 +107,17 @@ h1 + p {
 
 a {
   font-size: 0.8rem;
+}
+
+@media print {
+  html {
+    font-size: 0.6rem;
+  }
+  body {
+    background-color: transparent;
+  }
+
+  #container {
+    padding: 0;
+  }
 }
