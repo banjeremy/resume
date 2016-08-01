@@ -17,7 +17,7 @@ body {
 #container {
   padding: 0 20px;
   flex: 0 1 auto;
-  max-width: 900px;
+  max-width: 725px;
 }
 
 li {
@@ -27,6 +27,7 @@ li {
 p {
   font-size: 1.0rem;
   margin-top: 1.5rem;
+  line-height: 1.4rem;
 }
 
 hr {
@@ -60,11 +61,11 @@ h3 {
 }
 
 ul {
-  padding-left: 0px;
+  padding-left: 12px;
 
   li {
     list-style: none;
-    line-height: 1.4rem;
+    line-height: 1.0rem;
     padding: 0.4rem 0;
 
     &:before {
@@ -81,13 +82,23 @@ h1 + p {
   margin-top: 0.5rem;
 }
 
+/* Desktop-specific styles */
 @media screen and (min-width: 725px) {
   #technologies + hr + ul {
     column-count: 3;
   }
 
-  ul > li {
-    padding: 0;
+  ul {
+    padding-left: 0;
+
+    > li {
+      padding: 0;
+      line-height: 1.4rem;
+
+      &:before {
+        margin-left: 0;
+      }
+    }
   }
 }
 
