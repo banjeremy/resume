@@ -14,6 +14,7 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 ------------
 - JavaScript / Node.js
 - Clojure
+- Scala
 - HTML
 - CSS / Sass / Less
 - Amazon Web Services (AWS)
@@ -25,8 +26,9 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - Webpack
 - Gulp
 - ReactJS
+- Redux
 - Mocha + Chai
-- Microservices Architecture
+- Microservice Architecture
 - Continuous Integration
 - Functional Programming
 - Responsive Web Design
