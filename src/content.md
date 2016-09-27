@@ -36,10 +36,14 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 ## Experience
 ----------
 **Senior Software Engineer**, *Built Technologies* August 2015 – Present
-- architected and implemented microservice architecture using AWS Lambda
-- created [getbuilt.com](http://getbuilt.com) website
+- architected and implemented microservice architecture using AWS
+- lead developer on [getbuilt.com](http://getbuilt.com) website project
+- developed custom solutions supporting third party bank integrations
+- expanded feature set in Angular/Ionic mobile application for construction inspectors
+- enhanced and re-skinned legacy desktop web application with responsive web design principles
+- created several internal support tools using the React ecosystem
 
-**Senior Developer**, *Communication Components* July 2013 – August 2015
+**Senior Developer**, *2-COM* July 2013 – August 2015
 - Lead developer across multiple client projects
 - Implemented caching mechanism that reduced page loads by more than 90%
 - Architected and lead implementation of AngularJS e-commerce app with Node.js/Express REST API
