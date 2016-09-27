@@ -25,6 +25,7 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - MongoDB
 - Webpack
 - Gulp
+- AngularJS
 - ReactJS
 - Redux
 - Mocha + Chai
