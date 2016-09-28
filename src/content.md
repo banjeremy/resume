@@ -45,12 +45,12 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 ## Experience
 ----------
 **Senior Software Engineer**, *Built Technologies* August 2015 – Present
-- architected and implemented microservice architecture using AWS
-- lead developer on [getbuilt.com](http://getbuilt.com) website project
-- developed custom solutions supporting third party bank integrations
-- expanded feature set in Angular/Ionic mobile application for construction inspectors
-- enhanced and re-skinned legacy desktop web application with responsive web design principles
-- created several internal support tools using the React ecosystem
+- Architected and implemented microservice architecture using AWS
+- Lead team to create [getbuilt.com](http://getbuilt.com) website
+- Developed custom solutions supporting third party bank integrations
+- Expanded feature set in Angular/Ionic mobile application for construction inspectors
+- Enhanced and re-skinned legacy desktop web application with responsive web design principles
+- Created several internal support tools using the React ecosystem
 
 **Senior Developer**, *2-COM* July 2013 – August 2015
 - Lead developer across multiple client projects
@@ -67,6 +67,7 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - Hacked SharePoint with JavaScript and jQuery
 
 **Research Assistant**, *University of Southern Mississippi* August 2010 – July 2012
+- Developed web-based 3D rendering engine for simulation and training scenarios
 - Replaced legacy server with Node.js and Socket.io, gaining better performance and maintainability
 - Refactored 3D camera controls and tools to use modern Three.js and WebGL
 
