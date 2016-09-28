@@ -12,7 +12,7 @@ jeremy@jeremyjones.tech | github.com/banjeremy | linkedin.com/in/banjeremy | blo
 ----------
 I am an experienced Full Stack Engineer and aspiring Architect.
 I'm passionate about my craft and I strive for perfection.
-As a warrior against the complex, I fight for simplicity.
+As a warrior ⚔ against the complex, I fight for simplicity.
 I'm perpetually curious and constantly seeking new challenges, learning new methods, tools, and different ways of approaching problems.
 
 
