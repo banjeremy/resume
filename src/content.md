@@ -2,17 +2,17 @@
 Full Stack Software Engineer
 
 <p class="links-screen">
-[email](mailto:banjeremy@gmail.com) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech)
+[email](mailto:jeremy@jeremyjones.tech) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech)
 </p>
 
 <p class="links-print">
-banjeremy@gmail.com | github.com/banjeremy | linkedin.com/in/banjeremy | blog.jeremyjones.tech
+jeremy@jeremyjones.tech | github.com/banjeremy | linkedin.com/in/banjeremy | blog.jeremyjones.tech
 </p>
 
 ----------
 I am an experienced Full Stack Engineer and aspiring Architect.
 I'm passionate about my craft and I strive for perfection.
-As a warrior ⚔ against the complex, I fight for simplicity.
+As a warrior against the complex, I fight for simplicity.
 I'm perpetually curious and constantly seeking new challenges, learning new methods, tools, and different ways of approaching problems.
 
 
