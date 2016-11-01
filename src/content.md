@@ -21,6 +21,9 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - JavaScript / Node.js
 - Clojure
 - Scala
+- Akka
+- Play
+- Reactive Architecture
 - HTML
 - CSS / Sass / Less
 - Amazon Web Services (AWS)
