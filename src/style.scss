@@ -102,16 +102,36 @@ h1 + p {
     > li {
       padding: 0 0 0.6rem 12px;
       line-height: 1.2rem;
-
-      &:before {
-        // margin-left: 0;
-      }
     }
   }
 }
 
 a {
+  text-decoration: none;
+  em {
+    color: #222;
+  }
+}
+
+.links-screen {
   font-size: 0.8rem;
+  a {
+    text-decoration: underline;
+  }
+}
+
+a,
+a:visited {
+  color: #2962FF;
+}
+
+a:active,
+a:hover {
+  color: #0D47A1;
+
+  em {
+    color: #0D47A1;
+  }
 }
 
 @media print {
