@@ -24,10 +24,13 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 - ReactJS / Redux
 - HTML / CSS
 - Functional Programming
-- Hadoop
 - Amazon Web Services (AWS)
+- PostgreSQL
 - MongoDB
+- Hadoop
+- Go
 - Microservices
+- Data Visualization / D3.js
 - Test Driven Development
 - Continuous Integration
 - Agile / Scrum
