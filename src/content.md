@@ -19,16 +19,16 @@ I'm perpetually curious and constantly seeking new challenges, learning new meth
 ------------
 - JavaScript / Node.js
 - Scala / Akka
-- Apache Spark
+- Python
 - Docker
 - ReactJS / Redux
 - HTML / CSS
 - Functional Programming
 - Amazon Web Services (AWS)
+- Apache Spark
 - PostgreSQL
 - MongoDB
 - Hadoop
-- Go
 - Microservices
 - Data Visualization / D3.js
 - Test Driven Development
