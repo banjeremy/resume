@@ -86,7 +86,7 @@ h1 + p {
   margin-top: 0.5rem;
 }
 
-.links-print {
+.print {
   display: none;
 }
 
@@ -139,16 +139,17 @@ a:hover {
 }
 
 @media print {
-  .links-screen {
+  .screen {
     display: none;
   }
 
-  .links-print {
+  .print {
     display: block;
+    font-size: 0.8rem;
   }
 
   html {
-    // font-size: 0.58rem;
+    font-size: 0.825em;
   }
   body {
     background-color: transparent;

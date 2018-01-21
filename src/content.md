@@ -1,16 +1,16 @@
 # Jeremy Jones
 Software Engineer
 
-<p class="links-screen">
+<p class="screen">
 [email](mailto:jeremy@jeremyjones.tech) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech)
 </p>
 
-<p class="links-print">
+<p class="print">
 jeremy@jeremyjones.tech | github.com/banjeremy | linkedin.com/in/banjeremy | blog.jeremyjones.tech
 </p>
 
 ---
-I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a diversity of technologies, platforms and industries. I'm passionate about my craft and I aim for perfection. As a warrior ⚔ against complexity, I fight for simplicity. I'm perpetually curious and constantly seeking new challenges, learning new methods and tools, and exploring different angles for approaching problems.
+I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a diversity of technologies, platforms and industries. I'm passionate about my craft and I aim for perfection. As a warrior <span class="screen">⚔</span> against complexity, I fight for simplicity. I'm perpetually curious and constantly seeking new challenges, learning new methods and tools, and exploring different angles for approaching problems.
 
 ## Technologies
 ---
@@ -62,7 +62,7 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 
 **Software Developer**, *Deloitte Consulting*, Jul 2012–Jul 2013
 - JavaScript hacker on legacy government applications
-- Worked on some interesting applications for the DoD that I can't talk about 🙊
+- Worked on some interesting applications for the DoD that I can't talk about <span class="screen">🙊</span>
 
 **Research Assistant**, *University of Southern Mississippi* Aug 2010–Jul 2012
 - Built a web-based 3D rendered environment used by Army Corps of Engineer for simulations
