@@ -64,7 +64,7 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 - JavaScript hacker on legacy government applications
 - Worked on some interesting applications for the DoD that I can't talk about <span class="screen">🙊</span>
 
-**Research Assistant**, *University of Southern Mississippi* Aug 2010–Jul 2012
+**Web Developer**, *University of Southern Mississippi* Aug 2010–Jul 2012
 - Built a web-based 3D rendered environment used by Army Corps of Engineer for simulations
 
 ## Education
