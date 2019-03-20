@@ -35,19 +35,7 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 
 ## Experience
 ---
-**Data Science Operations Engineer**, [*HCA*](http://hcahealthcare.com/) Dec 2017–Present
-- Build DevOps tools to help Data Scientists and Machine Learning Engineers be successful
-- Construct deployment pipelines for containerized, AI-powered applications in OpenShift
-- Assist in promoting machine learning models for use in  production applications
-- Design internal APIs for data exploration and discovery across systems
-- Study artificial intelligence and applications in Healthcare
-
-**Data Engineer**, [*HCA*](http://hcahealthcare.com/) Dec 2016–Present
-- Designed and developed full-stack distributed applications backed by big data
-- Helped teams be productive by documenting coding standards and best practices
-- Facilitated deployments of distributed applications to cluster infrastructure
-- Reduced technical debt and improved performance of solutions across the enterprise
-- Defined deployment strategies for a range of applications
+**Software Engineer**, [*HCA*](http://hcahealthcare.com/) Dec 2016–Present
 
 **Senior Application Engineer**, [*Built Technologies*](https://getbuilt.com/) Aug 2015–Dec 2016
 - Championed the move from monolithic architecture to event-driven microservices
