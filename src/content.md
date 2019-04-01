@@ -17,25 +17,23 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 - JavaScript
 - HTML + CSS
 - ReactJS
-- Webpack
 - Python
 - Golang
 - Docker
-- OpenShift
 - Kubernetes
-- Apache Spark
 - Microservices
-- Hadoop + Big Data
-- AI + Machine Learning
 - Data Visualization
-- Data Analysis
 - Agile + Scrum
 - CI + CD
 - (No)SQL
 
 ## Experience
 ---
-**Software Engineer**, [*HCA*](http://hcahealthcare.com/) Dec 2016–Present
+**Software Engineer**, [*HCA Healthcare*](http://hcahealthcare.com/) Dec 2016–Present
+- Lead a team of engineers and mentored junior developers
+- Created a streaming pipeline from legacy medical systems into Kafka
+- Developed tools supporting users of Hadoop big data platform
+- Crafted CI/CD pipelines and instrumentation for Data Science and AI applications
 
 **Senior Application Engineer**, [*Built Technologies*](https://getbuilt.com/) Aug 2015–Dec 2016
 - Championed the move from monolithic architecture to event-driven microservices
@@ -57,7 +55,8 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 
 ## Education
 ---
-* University of Southern Mississippi, Hattiesburg, MS – B.S. Computer Science
+* Bachelor of Science in Computer Science – University of Southern Mississippi, 2008–2012
+* Master of Computer Science (in progress) – University of Illinois Urbana-Champaign, 2019–present
 
 ## Personal Interests
 ---
