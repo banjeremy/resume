@@ -3,7 +3,9 @@
 Software Engineer
 
 <p class="screen">
+
 [email](mailto:jeremy@jeremyjones.tech) | [github](https://github.com/banjeremy) | [linkedin](https://linkedin.com/in/banjeremy) | [blog](http://blog.jeremyjones.tech)
+
 </p>
 
 <p class="print">

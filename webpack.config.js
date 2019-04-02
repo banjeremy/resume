@@ -1,47 +1,85 @@
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+const path = require('path')
 
-const data = {
-  paths: ['/'],
-};
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const TerserJSPlugin = require('terser-webpack-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin')
 
 module.exports = {
-  entry: {
-    main: './index.js',
-  },
-
+  entry: './src/index.js',
   output: {
-    filename: '[name].js',
-    path: 'dist',
+    path: __dirname + '/dist',
+    filename: 'bundle.js',
     libraryTarget: 'umd',
+    globalObject: `(typeof self !== 'undefined' ? self : this)`,
   },
-
+  optimization: {
+    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+  },
   module: {
-    loaders: [{
-      test: /\.css$/,
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
-    }, {
-      test: /\.md$/,
-      loader: 'html!markdown',
-    }, {
-      test: /\.scss$/,
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
-    }, {
-      test: /\.html$/,
-      loader: 'html'
-    }, {
-      test: /\.ico$/,
-      loader: 'file'
-    }]
-  },
-  htmlLoader: {
-    interpolate: true,
-  },
-  fileLoader: {
-    name: "[name].[ext]"
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              // publicPath: '../',
+            },
+          },
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              interpolate: true,
+            },
+          },
+          {
+            loader: 'markdown-loader',
+          },
+        ],
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              interpolate: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(ico|png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          },
+        ],
+      },
+    ],
   },
   plugins: [
-    new StaticSiteGeneratorPlugin('main', data.paths, data),
-    new ExtractTextPlugin('[name].css')
-  ]
-};
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      chunkFilename: '[id].css',
+    }),
+    new StaticSiteGeneratorPlugin({
+      paths: ['/'],
+      locals: {},
+    }),
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 8080,
+  },
+}

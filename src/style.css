@@ -1,16 +1,13 @@
 @import '~normalize.css/normalize.css';
 
-$white: #f2f2f2;
-$gray: #aaa;
-
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: $white;
-  font-size:62.5%;
+  background-color: #f2f2f2;
+  font-size: 62.5%;
   font-weight: 300;
   color: #222;
   display: flex;
@@ -29,14 +26,14 @@ li {
 }
 
 p {
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin-top: 1.5rem;
   line-height: 1.4rem;
 }
 
 hr {
   border: none;
-  border-top: 1px dotted $gray;
+  border-top: 1px dotted #aaa;
 }
 
 h1,
@@ -66,23 +63,23 @@ h3 {
 
 ul {
   padding-left: 12px;
-
-  li {
-    list-style: none;
-    line-height: 1.0rem;
-    padding: 0.4rem 0;
-
-    &:before {
-      content: '>';
-      margin-left: -12px;
-      padding-right: 5px;
-      color: $gray;
-      font-size: 0.7rem;
-    }
-  }
 }
 
-h1 + p {
+ul li {
+  list-style: none;
+  line-height: 1rem;
+  padding: 0.4rem 0;
+}
+
+ul li:before {
+  content: '>';
+  margin-left: -12px;
+  padding-right: 5px;
+  color: #aaa;
+  font-size: 0.7rem;
+}
+
+h1+p {
   margin-top: 0.5rem;
 }
 
@@ -90,34 +87,38 @@ h1 + p {
   display: none;
 }
 
-@media print, screen and (min-width: 745px) {
-  #technologies + hr + ul,
-  #personal + hr + ul {
+@media print,
+screen and (min-width: 745px) {
+
+  #technologies+hr+ul,
+  #personal+hr+ul {
     column-count: 3;
   }
 
   ul {
     padding-left: 0;
+  }
 
-    > li {
-      padding: 0 0 0.6rem 12px;
-      line-height: 1.2rem;
-    }
+  ul>li {
+    padding: 0 0 0.6rem 12px;
+    line-height: 1.2rem;
   }
 }
 
 a {
   text-decoration: none;
-  em {
-    color: #222;
-  }
+}
+
+a em {
+  color: #222;
 }
 
 .links-screen {
   font-size: 0.8rem;
-  a {
-    text-decoration: underline;
-  }
+}
+
+.links-screen a {
+  text-decoration: underline;
 }
 
 .small {
@@ -126,16 +127,17 @@ a {
 
 a,
 a:visited {
-  color: #2962FF;
+  color: #2962ff;
 }
 
 a:active,
 a:hover {
-  color: #0D47A1;
+  color: #0d47a1;
+}
 
-  em {
-    color: #0D47A1;
-  }
+a:active em,
+a:hover em {
+  color: #0d47a1;
 }
 
 @media print {
@@ -151,6 +153,7 @@ a:hover {
   html {
     font-size: 0.65em;
   }
+
   body {
     background-color: transparent;
   }
