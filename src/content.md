@@ -19,13 +19,13 @@ I am a Full Stack Developer, Architect, Polyglot and Hacker with experience in a
 ---
 
 - JavaScript
-- HTML + CSS
 - ReactJS
 - Python
 - Golang
 - Docker
 - Kubernetes
 - Microservices
+- Kafka
 - Data Visualization
 - Agile + Scrum
 - CI + CD
